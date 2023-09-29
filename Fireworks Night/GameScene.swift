@@ -39,7 +39,6 @@ class GameScene: SKScene {
         score = 0
         
         gameTimer = Timer.scheduledTimer(timeInterval: 6, target: self, selector: #selector(launchFireworks), userInfo: nil, repeats: true)
-        
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -56,6 +55,11 @@ class GameScene: SKScene {
         if let emitter = SKEmitterNode(fileNamed: "explode") {
             emitter.position = firework.position
             addChild(emitter)
+            
+            let wait = SKAction.wait(forDuration: 2)
+            let remove = SKAction.removeFromParent()
+            let sequence = SKAction.sequence([wait, remove])
+            emitter.run(SKAction.repeatForever(sequence))
         }
 
         firework.removeFromParent()
