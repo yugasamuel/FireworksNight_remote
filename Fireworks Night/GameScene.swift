@@ -23,6 +23,8 @@ class GameScene: SKScene {
         }
     }
     
+    var numberOfLaunches = 0
+    
     override func didMove(to view: SKView) {
         let background = SKSpriteNode(imageNamed: "background")
         background.position = CGPoint(x: 512, y: 384)
@@ -197,6 +199,11 @@ class GameScene: SKScene {
 
         default:
             break
+        }
+        
+        numberOfLaunches+=1
+        if numberOfLaunches == 10 {
+            gameTimer?.invalidate()
         }
     }
 }
