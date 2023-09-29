@@ -15,6 +15,11 @@
 		65FF69252AC70DEC0021DE74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FF69232AC70DEC0021DE74 /* Main.storyboard */; };
 		65FF69272AC70DED0021DE74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65FF69262AC70DED0021DE74 /* Assets.xcassets */; };
 		65FF692A2AC70DED0021DE74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FF69282AC70DED0021DE74 /* LaunchScreen.storyboard */; };
+		65FF69372AC7103D0021DE74 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 65FF69312AC7103D0021DE74 /* spark.png */; };
+		65FF69382AC7103D0021DE74 /* fuse.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65FF69322AC7103D0021DE74 /* fuse.sks */; };
+		65FF693A2AC7103D0021DE74 /* explode.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65FF69342AC7103D0021DE74 /* explode.sks */; };
+		65FF693B2AC7103D0021DE74 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65FF69352AC7103D0021DE74 /* background@2x.png */; };
+		65FF693C2AC7103D0021DE74 /* rocket@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65FF69362AC7103D0021DE74 /* rocket@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +32,11 @@
 		65FF69242AC70DEC0021DE74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65FF69262AC70DED0021DE74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65FF69292AC70DED0021DE74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65FF69312AC7103D0021DE74 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		65FF69322AC7103D0021DE74 /* fuse.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fuse.sks; sourceTree = "<group>"; };
+		65FF69342AC7103D0021DE74 /* explode.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explode.sks; sourceTree = "<group>"; };
+		65FF69352AC7103D0021DE74 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		65FF69362AC7103D0021DE74 /* rocket@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rocket@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +77,21 @@
 				65FF69232AC70DEC0021DE74 /* Main.storyboard */,
 				65FF69262AC70DED0021DE74 /* Assets.xcassets */,
 				65FF69282AC70DED0021DE74 /* LaunchScreen.storyboard */,
+				65FF69302AC7103D0021DE74 /* Content */,
 			);
 			path = "Fireworks Night";
+			sourceTree = "<group>";
+		};
+		65FF69302AC7103D0021DE74 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				65FF69312AC7103D0021DE74 /* spark.png */,
+				65FF69322AC7103D0021DE74 /* fuse.sks */,
+				65FF69342AC7103D0021DE74 /* explode.sks */,
+				65FF69352AC7103D0021DE74 /* background@2x.png */,
+				65FF69362AC7103D0021DE74 /* rocket@2x.png */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,10 +152,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65FF693C2AC7103D0021DE74 /* rocket@2x.png in Resources */,
 				65FF69252AC70DEC0021DE74 /* Main.storyboard in Resources */,
+				65FF69372AC7103D0021DE74 /* spark.png in Resources */,
 				65FF691C2AC70DEC0021DE74 /* GameScene.sks in Resources */,
 				65FF69272AC70DED0021DE74 /* Assets.xcassets in Resources */,
+				65FF693A2AC7103D0021DE74 /* explode.sks in Resources */,
 				65FF692A2AC70DED0021DE74 /* LaunchScreen.storyboard in Resources */,
+				65FF69382AC7103D0021DE74 /* fuse.sks in Resources */,
+				65FF693B2AC7103D0021DE74 /* background@2x.png in Resources */,
 				65FF691E2AC70DEC0021DE74 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
